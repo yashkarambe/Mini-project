@@ -7,11 +7,18 @@
     <title>Educative</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        section {
+            height: 100vh;
+            width: 100vh;
+        }
+    </style>
 </head>
 
 <body>
+
     <header>
-         <nav class=" navbar fixed-top navbar-expand-lg bg-body-tertiary " data-bs-theme="dark"> <!-- z-1 position-absolute -->
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#Cources_canva"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,245 +38,170 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">      
+            <div class="offcanvas-body ">
                 <!-- offcanvas body only for small divices -->
-                Courses
-                <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2 "><br>
-                    <li class="bd-links-group py-2">
-                        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
+                <ul class="bd-links-nav">
+                    <li class="bd-links-group py-2 ">
+                        <strong class="bd-links-heading fw-semibold list-unstyled">
                             Getting started
                         </strong>
 
-                        <ul class="list-unstyled fw-normal pb-2 small">
-                            <li><a href="/docs/5.3/getting-started/introduction/"
+                        <ul class=" fw-normal pb-2 small">
+                            <li type="circle"><a href="#introduction1.1" style="text-decoration: none;"
                                     class="bd-links-link d-inline-block rounded">Introduction</a></li>
-                            <li><a href="/docs/5.3/getting-started/download/"
-                                    class="bd-links-link d-inline-block rounded">Download</a></li>
-                            <li><a href="/docs/5.3/getting-started/contents/"
-                                    class="bd-links-link d-inline-block rounded">Contents</a></li>
-                            <li><a href="/docs/5.3/getting-started/browsers-devices/"
-                                    class="bd-links-link d-inline-block rounded">Browsers &amp; devices</a></li>
+                            <li><a href="#introduction2.1" 
+                                    class="bd-links-link d-inline-block rounded">Data Science</a></li>
+                            <li><a href="#introduction3.1"
+                                    class="bd-links-link d-inline-block rounded">Install Python</a></li>
+                            <li><a href="#introduction4.1"
+                                    class="bd-links-link d-inline-block rounded"> Variables in python</a></li>
+                            <li><a href="#introduction5.1"
+                                    class="bd-links-link d-inline-block rounded"> Numbers</a></li>
+                            <li><a href="#introduction6.1"
+                                    class="bd-links-link d-inline-block rounded"> Strings</a></li>
                         </ul>
                     </li>
                     <li class="bd-links-group py-2">
-                        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                            Customize
+                        <strong class=" d-flex w-100 align-items-center fw-semibold ">
+                            Basic Python
                         </strong>
-
-                        <ul class="list-unstyled fw-normal pb-2 small">
-                            <li><a href="/docs/5.3/customize/overview/"
-                                    class="bd-links-link d-inline-block rounded">Overview</a></li>
-                            <li><a href="/docs/5.3/customize/sass/"
-                                    class="bd-links-link d-inline-block rounded">Sass</a></li>
-                            <li><a href="/docs/5.3/customize/options/"
-                                    class="bd-links-link d-inline-block rounded">Options</a></li>
-                            <li><a href="/docs/5.3/customize/color/"
-                                    class="bd-links-link d-inline-block rounded">Color</a></li>
+                        <ul class=" fw-normal pb-2 small">
+                            <li type="circle"><a href="#section2.1" style="text-decoration: none;"
+                                    class="bd-links-link d-inline-block rounded">Introduction</a></li>
+                            <li><a href="#section2.2.1" 
+                                    class="bd-links-link d-inline-block rounded">Data Science</a></li>
+                            <li><a href="#section2.3.1"
+                                    class="bd-links-link d-inline-block rounded">Install Python</a></li>
+                            <li><a href="#section2.4.1"
+                                    class="bd-links-link d-inline-block rounded"> Variables in python</a></li>
+                            <li><a href="#section2.5.1"
+                                    class="bd-links-link d-inline-block rounded"> Numbers</a></li>
+                            <li><a href="#section2.6.1"
+                                    class="bd-links-link d-inline-block rounded"> Strings</a></li>
                         </ul>
                     </li>
-                    <li class="bd-links-group py-2">
-                        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-
-                            Layout
-                        </strong>
-
-                        <ul class="list-unstyled fw-normal pb-2 small">
-                            <li><a href="/docs/5.3/layout/breakpoints/"
-                                    class="bd-links-link d-inline-block rounded">Breakpoints</a></li>
-                            <li><a href="/docs/5.3/layout/containers/"
-                                    class="bd-links-link d-inline-block rounded">Containers</a></li>
-                            <li><a href="/docs/5.3/layout/grid/"
-                                    class="bd-links-link d-inline-block rounded">Grid</a></li>
-                            <li><a href="/docs/5.3/layout/columns/"
-                                    class="bd-links-link d-inline-block rounded">Columns</a></li>
-                            <li><a href="/docs/5.3/layout/gutters/"
-                                    class="bd-links-link d-inline-block rounded">Gutters</a></li>
-                        </ul>
-                    </li>
-                    <li class="bd-links-group py-2">
-                        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                            Content
-                        </strong>
-
-                        <ul class="list-unstyled fw-normal pb-2 small">
-                            <li><a href="/docs/5.3/content/reboot/"
-                                    class="bd-links-link d-inline-block rounded">Reboot</a></li>
-                            <li><a href="/docs/5.3/content/typography/"
-                                    class="bd-links-link d-inline-block rounded">Typography</a></li>
-                            <li><a href="/docs/5.3/content/images/"
-                                    class="bd-links-link d-inline-block rounded">Images</a></li>
-                            <li><a href="/docs/5.3/content/tables/"
-                                    class="bd-links-link d-inline-block rounded">Tables</a></li>
-                            <li><a href="/docs/5.3/content/figures/"
-                                    class="bd-links-link d-inline-block rounded">Figures</a></li>
-                        </ul>
-                    </li>
-                    <li class="bd-links-group py-2">
-                        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                            Forms
-                        </strong>
-
-                        <ul class="list-unstyled fw-normal pb-2 small">
-                            <li><a href="/docs/5.3/forms/overview/"
-                                    class="bd-links-link d-inline-block rounded">Overview</a></li>
-                            <li><a href="/docs/5.3/forms/form-control/"
-                                    class="bd-links-link d-inline-block rounded">Form control</a></li>
-                            <li><a href="/docs/5.3/forms/select/"
-                                    class="bd-links-link d-inline-block rounded">Select</a></li>
-                            <li><a href="/docs/5.3/forms/checks-radios/"
-                                    class="bd-links-link d-inline-block rounded">Checks &amp; radios</a></li>
-
-                        </ul>
-                    </li>
-
-                    <li class="bd-links-group py-2">
-                        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-
-                            Extend
-                        </strong>
-
-                        <ul class="list-unstyled fw-normal pb-2 small">
-                            <li><a href="/docs/5.3/extend/approach/"
-                                    class="bd-links-link d-inline-block rounded">Approach</a></li>
-                            <li><a href="/docs/5.3/extend/icons/"
-                                    class="bd-links-link d-inline-block rounded">Icons</a></li>
-                        </ul>
-                    </li>
-
                 </ul>
             </div>
 
         </div>
     </header>
-<!-- body for only larg divices -->
-     <div class="container-fluid  sticky-bottom  d-none d-lg-block "> <!-- z-0 position-absolute -->
+    <!-- body for only larg divices -->
+    <div class="container-fluid d-none d-lg-block ">
         <div class="row ">
             <div class="col-3 ">
-                <div class=" d-flex flex-column  overflow-scroll my-4 mx-2">
-                    <nav class="bd-links active" id="bd-docs-nav" data-bs="scroll" data-bs-smooth-scroll="true"
-                        tabindex="0" aria-label="Docs navigation"><br><br>
-                        <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2 my-2"><br>
-                            <li class="bd-links-group py-2">
-                                <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                                    Getting started
-                                </strong>
+                <div class=" d-flex flex-column vh-100 overflow-scroll  ">
+                    <ul class="bd-links-nav">
+                        <li class="bd-links-group py-2 ">
+                            <strong class="bd-links-heading fw-semibold list-unstyled">
+                                Getting started
+                            </strong>
 
-                                <ul class="list-unstyled fw-normal pb-2 small">
-                                    <li><a href="/docs/5.3/getting-started/introduction/"
-                                            class="bd-links-link d-inline-block rounded">Introduction</a></li>
-                                    <li><a href="/docs/5.3/getting-started/download/"
-                                            class="bd-links-link d-inline-block rounded">Download</a></li>
-                                    <li><a href="/docs/5.3/getting-started/contents/"
-                                            class="bd-links-link d-inline-block rounded">Contents</a></li>
-                                    <li><a href="/docs/5.3/getting-started/browsers-devices/"
-                                            class="bd-links-link d-inline-block rounded">Browsers &amp; devices</a></li>
-                                </ul>
-                            </li>
-                            <li class="bd-links-group py-2">
-                                <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                                    Customize
-                                </strong>
-
-                                <ul class="list-unstyled fw-normal pb-2 small">
-                                    <li><a href="/docs/5.3/customize/overview/"
-                                            class="bd-links-link d-inline-block rounded">Overview</a></li>
-                                    <li><a href="/docs/5.3/customize/sass/"
-                                            class="bd-links-link d-inline-block rounded">Sass</a></li>
-                                    <li><a href="/docs/5.3/customize/options/"
-                                            class="bd-links-link d-inline-block rounded">Options</a></li>
-                                    <li><a href="/docs/5.3/customize/color/"
-                                            class="bd-links-link d-inline-block rounded">Color</a></li>
-                                </ul>
-                            </li>
-                            <li class="bd-links-group py-2">
-                                <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-
-                                    Layout
-                                </strong>
-
-                                <ul class="list-unstyled fw-normal pb-2 small">
-                                    <li><a href="/docs/5.3/layout/breakpoints/"
-                                            class="bd-links-link d-inline-block rounded">Breakpoints</a></li>
-                                    <li><a href="/docs/5.3/layout/containers/"
-                                            class="bd-links-link d-inline-block rounded">Containers</a></li>
-                                    <li><a href="/docs/5.3/layout/grid/"
-                                            class="bd-links-link d-inline-block rounded">Grid</a></li>
-                                    <li><a href="/docs/5.3/layout/columns/"
-                                            class="bd-links-link d-inline-block rounded">Columns</a></li>
-                                    <li><a href="/docs/5.3/layout/gutters/"
-                                            class="bd-links-link d-inline-block rounded">Gutters</a></li>
-                                </ul>
-                            </li>
-                            <li class="bd-links-group py-2">
-                                <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                                    Content
-                                </strong>
-
-                                <ul class="list-unstyled fw-normal pb-2 small">
-                                    <li><a href="/docs/5.3/content/reboot/"
-                                            class="bd-links-link d-inline-block rounded">Reboot</a></li>
-                                    <li><a href="/docs/5.3/content/typography/"
-                                            class="bd-links-link d-inline-block rounded">Typography</a></li>
-                                    <li><a href="/docs/5.3/content/images/"
-                                            class="bd-links-link d-inline-block rounded">Images</a></li>
-                                    <li><a href="/docs/5.3/content/tables/"
-                                            class="bd-links-link d-inline-block rounded">Tables</a></li>
-                                    <li><a href="/docs/5.3/content/figures/"
-                                            class="bd-links-link d-inline-block rounded">Figures</a></li>
-                                </ul>
-                            </li>
-                            <li class="bd-links-group py-2">
-                                <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                                    Forms
-                                </strong>
-
-                                <ul class="list-unstyled fw-normal pb-2 small">
-                                    <li><a href="/docs/5.3/forms/overview/"
-                                            class="bd-links-link d-inline-block rounded">Overview</a></li>
-                                    <li><a href="/docs/5.3/forms/form-control/"
-                                            class="bd-links-link d-inline-block rounded">Form control</a></li>
-                                    <li><a href="/docs/5.3/forms/select/"
-                                            class="bd-links-link d-inline-block rounded">Select</a></li>
-                                    <li><a href="/docs/5.3/forms/checks-radios/"
-                                            class="bd-links-link d-inline-block rounded">Checks &amp; radios</a></li>
-
-                                </ul>
-                            </li>
-
-                            <li class="bd-links-group py-2">
-                                <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-
-                                    Extend
-                                </strong>
-
-                                <ul class="list-unstyled fw-normal pb-2 small">
-                                    <li><a href="/docs/5.3/extend/approach/"
-                                            class="bd-links-link d-inline-block rounded">Approach</a></li>
-                                    <li><a href="/docs/5.3/extend/icons/"
-                                            class="bd-links-link d-inline-block rounded">Icons</a></li>
-                                </ul>
-                            </li>
-
-                        </ul>
-                    </nav>
-
+                            <ul class=" fw-normal pb-2 small">
+                                <li type="circle"><a href="#introduction1" style="text-decoration: none;"
+                                        class="bd-links-link d-inline-block rounded">Introduction</a></li>
+                                <li><a href="#introduction2" 
+                                        class="bd-links-link d-inline-block rounded">Data Science</a></li>
+                                <li><a href="#introduction3"
+                                        class="bd-links-link d-inline-block rounded">Install Python</a></li>
+                                <li><a href="#introduction4"
+                                        class="bd-links-link d-inline-block rounded"> Variables in python</a></li>
+                                <li><a href="#introduction5"
+                                        class="bd-links-link d-inline-block rounded"> Numbers</a></li>
+                                <li><a href="#introduction6"
+                                        class="bd-links-link d-inline-block rounded"> Strings</a></li>
+                            </ul>
+                        </li>
+                        <li class="bd-links-group py-2">
+                            <strong class=" d-flex w-100 align-items-center fw-semibold ">
+                                Basic Python
+                            </strong>
+                            <ul class=" fw-normal pb-2 small">
+                                <li type="circle"><a href="#section2.1" style="text-decoration: none;"
+                                        class="bd-links-link d-inline-block rounded">Introduction</a></li>
+                                <li><a href="#section2.2" 
+                                        class="bd-links-link d-inline-block rounded">Data Science</a></li>
+                                <li><a href="#section2.3"
+                                        class="bd-links-link d-inline-block rounded">Install Python</a></li>
+                                <li><a href="#section2.4"
+                                        class="bd-links-link d-inline-block rounded"> Variables in python</a></li>
+                                <li><a href="#section2.5"
+                                        class="bd-links-link d-inline-block rounded"> Numbers</a></li>
+                                <li><a href="#section2.6"
+                                        class="bd-links-link d-inline-block rounded"> Strings</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <!-- second container -->
+
             <div class="col-9 overflow-scroll ">
-                <div class="d-flex flex-column vh-100 "><br><br>
+                <div class="d-flex flex-column vh-100">
                     <div class="alert alert-light alert-dismissible fade show my-0" role="alert">
                         <strong>Wellcom to Educative!</strong> Start learning with great achivement.
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> 
-                    </div>                    
-                    <video class="img-fluid my-4" src="/playlist/Peaky.Blinders.S04E01.720p.English.Esubs.TheMoviesFlix.mkv" type="video/mkv" allow = "fullscreen"></video>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
-                    <button type="button" class="btn btn-success">Add Comment</button>
-                </div>
+                    <div class="contain ">
+                        <div class="section1 ">
+                            <section id="introduction1">
+                                <h1>Introduction</h1>
+                                <iframe width="900" height="500" src="https://www.youtube.com/embed/JL_grPUnXzY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </section>
+                            <section id="introduction2">
+                                <h1>Data Science</h1>
+                                <iframe width="900" height="500"  src="https://www.youtube.com/embed/Vn_mmOuQkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                            <section id="introduction3">
+                                <h1>Install Python</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/6lBPM-MiGNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            
+                            </section>
+                            <section id="introduction4">
+                                <h1>Variables in python</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/8tCe1P_cgoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                            <section id="introduction5">
+                                <h1>Numbers</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/pd2_ZbhFT38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                            <section id="introduction6">
+                                <h1> Strings</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/ez2N-hcwvcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                        </div>
 
+                        <div class="section2 ">
+                            <section id="section2.1">
+                                <h1>Introduction</h1>
+                                <iframe width="900" height="500" src="https://www.youtube.com/embed/JL_grPUnXzY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </section>
+                            <section id="section2.2">
+                                <h1>Data Science</h1>
+                                <iframe width="900" height="500"  src="https://www.youtube.com/embed/Vn_mmOuQkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                            <section id="section2.3">
+                                <h1>Install Python</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/6lBPM-MiGNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            
+                            </section>
+                            <section id="section2.4">
+                                <h1>Variables in python</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/8tCe1P_cgoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                            <section id="section2.5">
+                                <h1>Numbers</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/pd2_ZbhFT38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                            <section id="section2.6">
+                                <h1> Strings</h1>
+                                <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/ez2N-hcwvcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </section>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -279,30 +211,84 @@
     <!-- only for small divices -->
     <div>
         <div class="object-fit-contain overflow-scroll d-lg-none d-xxl-none">
-            <div class="d-flex flex-column vh-100 "><br><br>
+            <div class="d-flex flex-column vh-100 ">
                 <div class="alert alert-light alert-dismissible fade show my-0" role="alert">
                     <strong>Wellcom to Educative!</strong> Start learning with great achivement.
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> 
-                </div>                    
-                <video class="img-fluid " src="/playlist/Peaky.Blinders.S04E01.720p.English.Esubs.TheMoviesFlix.mkv" type="video/mkv" allow = "fullscreen"></video>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="contain ">
+                    <div class="section1 ">
+                        <section id="introduction1.1">
+                            <h1>Introduction</h1>
+                            <iframe width="900" height="500" src="https://www.youtube.com/embed/JL_grPUnXzY"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </section>
+                        <section id="introduction2.1">
+                            <h1>Data Science</h1>
+                            <iframe width="900" height="500"  src="https://www.youtube.com/embed/Vn_mmOuQkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                        <section id="introduction3.1">
+                            <h1>Install Python</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/6lBPM-MiGNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            
+                        </section>
+                        <section id="introduction4.1">
+                            <h1>Variables in python</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/8tCe1P_cgoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                        <section id="introduction5.1">
+                            <h1>Numbers</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/pd2_ZbhFT38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                        <section id="introduction6.1">
+                            <h1> Strings</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/ez2N-hcwvcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                    </div>
 
+                    <div class="section2 ">
+                        <section id="section2.1.1">
+                            <h1>Introduction</h1>
+                            <iframe width="900" height="500" src="https://www.youtube.com/embed/JL_grPUnXzY"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </section>
+                        <section id="section2.2.1">
+                            <h1>Data Science</h1>
+                            <iframe width="900" height="500"  src="https://www.youtube.com/embed/Vn_mmOuQkSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                        <section id="section2.3.1">
+                            <h1>Install Python</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/6lBPM-MiGNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            
+                        </section>
+                        <section id="section2.4.1">
+                            <h1>Variables in python</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/8tCe1P_cgoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                        <section id="section2.5.1">
+                            <h1>Numbers</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/pd2_ZbhFT38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                        <section id="section2.6.1">
+                            <h1> Strings</h1>
+                            <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/ez2N-hcwvcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                    </div>
+                </div>
             </div>
-            <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
-            </div>
-            <button type="button" class="btn btn-success">Add Comment</button>
         </div>
     </div>
 
-    <footer>
+    <!-- <footer>
         <ul class="list-inline text-center fixed-bottem z-0 position-absolute" data-bs-theme="dark">
             <li class=" list-inline-item mb-1 ">©copyrighte 2022-2023 all rights are reserved. </li>
             <li class="list-inline-item"><a href="#">Contacts us for any query</a></li>
             <li class="list-inline-item"><a href="#">#follow on</a></li>
             <li class="list-inline-item"><a href="#">#profile</a></li>
         </ul>
-    </footer>
+    </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
         </script>
